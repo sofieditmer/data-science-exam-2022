@@ -1,0 +1,10 @@
+path: "../../data" # Path relative to the `train.py` script. 
+train: images/train 
+val: images/val 
+test: images/test
+
+# Classes
+nc: 1
+names: [
+    "proximal_femur"
+] 
